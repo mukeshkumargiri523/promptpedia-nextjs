@@ -10,7 +10,7 @@ export const metadata = {
   description: "Get some useful prompt for AI",
 };
 
-export default function RootLayout({ children }) {
+function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
@@ -27,3 +27,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+export default RootLayout;

@@ -1,7 +1,6 @@
 import Feed from "@/components/Feed";
-import Image from "next/image";
 
-export default function Home() {
+function Home() {
   return (
     <section className="w-full flex-col flex-center">
       <h3 className="head_text text_center">
@@ -17,3 +16,4 @@ export default function Home() {
     </section>
   );
 }
+export default Home;
